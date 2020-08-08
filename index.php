@@ -89,6 +89,45 @@
                     </div>
                 </div>
 
+                <!-- Modal Structure Instagram -->
+                <div id="instagram-modal" class="modal">
+                    <div class="modal-content">
+                        <div class='content'>
+                            <h3>Instagram</h3>
+
+                            <form action="Includes/#.inc.php" method="POST">
+                                <label for="fname">Insert user name:</label><br>
+                                <input type="text" id="fname" name="fname"><br>
+                                <label for="fname">Insert Password:</label><br>
+                                <input type="text" id="fname" name="fname"><br><br>
+                                <button>Sign in</button>
+                            </form>                        
+                    
+                        </div>
+                        <a href="#!" class="modal-close">Close</a>
+                    </div>
+                </div>
+
+                <!-- Modal Structure Facebook -->
+                <div id="facebook-modal" class="modal">
+                    <div class="modal-content">
+                        <div class='content'>
+                            <h3>Facebook</h3>
+
+                            <form action="Includes/#.inc.php" method="POST">
+                                <label for="fname">Insert user name:</label><br>
+                                <input type="text" id="fname" name="fname"><br>
+                                <label for="fname">Insert Password:</label><br>
+                                <input type="text" id="fname" name="fname"><br><br>
+                                <button>Sign in</button>
+                            </form>                        
+                    
+                        </div>
+                        <a href="#!" class="modal-close">Close</a>
+                    </div>
+                </div>
+
+
             </div>
         </div>
 
