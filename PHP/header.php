@@ -5,7 +5,7 @@
         <div class="row">
 
             <div class="header-logo col-6">
-                <i class="far fa-comments"></i><span> Coll3ctio</span>
+                <a href=""> <i class="far fa-comments"></i><span> Coll3ctio</span></a>
             </div>
             <div class="header-menu co-6">
                 <ul>
