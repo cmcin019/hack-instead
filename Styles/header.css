@@ -1,9 +1,21 @@
 
 .header
 {
-    background-color: red;
+    background-color: #1f3C88;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.header-logo
+{
+    font-size: 30px;
+}
+
+.header-logo
+{
+    position: absolute;
+    bottom: -5px;
+    color: #ceddef;
 }
 
 .header-menu
@@ -12,17 +24,24 @@
     width: auto;
     display: table;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 .header ul li 
 {
     display: inline-block;
     padding: 10px 20px 10px 20px;
-    background-color: green;
+    /* background-color: green; */
+    border: 2px solid #ceddef;
+    color: #ceddef;
+    border-radius: 15px;
 }
 
 .header ul li:hover
 {
+    color: #1f3C88;
+    border: 2px solid#1f3C88;
+    background-color: #ceddef;
     cursor: pointer;
 }
 
