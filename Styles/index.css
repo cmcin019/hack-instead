@@ -1,5 +1,76 @@
-*{
-	margin: 0;
-	padding: 0;
-	font-family: Century Gothic;
+h1
+{
+    min-width: 0;
+    width: auto;
+    display: table;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+.connect-wrapper
+{
+    min-width: 0;
+    width: auto;
+    display: table;
+    margin: 0 auto;
+}
+
+.connect-wrapper li
+{
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+
+.connect-wrapper button
+{
+    width: 100%;
+    padding: 10px 200px 10px 200px ;
+    border-radius: 10px;
+}
+
+.connect-wrapper button span 
+{
+    font-size: 20px;    
+}
+
+
+.content
+{
+    width: auto;
+    min-width: 0;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    padding: 20px 20px 200px 20px;
+    background-color: #ceddef;
+    border-radius: 10px;
+}
+
+.content h3 
+{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.content h5 
+{
+
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content button
+{
+    width: 150px;
+    padding: 0;
+}
+
+.modal-close
+{
+    position: absolute;
+    bottom: 95%;
+    left: 85%;
+    color: #1f3C88;
+}
+

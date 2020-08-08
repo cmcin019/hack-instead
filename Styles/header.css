@@ -1,0 +1,50 @@
+.header
+{
+    background-color: #1f3C88;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.header-logo a
+{
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    bottom: 20px;
+    color: #ceddef;
+}
+
+.header-logo a
+{
+    color: #ceddef;
+    text-decoration: none;
+}
+
+.header-menu
+{
+    min-width: 0;
+    width: auto;
+    display: table;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.header ul li 
+{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    /* background-color: green; */
+    border: 2px solid #ceddef;
+    color: #ceddef;
+    border-radius: 10px;
+}
+
+.header ul li:hover
+{
+    color: #1f3C88;
+    border: 2px solid#1f3C88;
+    background-color: #ceddef;
+    cursor: pointer;
+}
+
