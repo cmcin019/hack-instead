@@ -1,0 +1,28 @@
+
+.header
+{
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-menu
+{
+    min-width: 0;
+    width: auto;
+    display: table;
+    margin: 0 auto;
+}
+
+.header ul li 
+{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    background-color: green;
+}
+
+.header ul li:hover
+{
+    cursor: pointer;
+}
+
